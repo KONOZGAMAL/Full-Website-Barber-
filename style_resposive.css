@@ -1,0 +1,99 @@
+:root {
+  --first-color: #009688;
+  --second-color: #eee;
+}
+/* Media Query 1170px */
+@media (max-width: 1170px) {
+}
+/* Media Query 991px */
+@media (max-width: 991px) {
+  /* <!-- Start Testimonial page --> */
+  .TestimonialMain .card-Test {
+    flex-basis: 47%;
+  }
+}
+/* Media Query 767px */
+@media (max-width: 767px) {
+  header .Icon img {
+    width: 120px;
+  }
+  main .contant h1 {
+    font-size: 55px;
+    text-align: center;
+  }
+  main .btn button {
+    width: 120px;
+  }
+  .featuresMain .card-Word {
+    flex-basis: 100%;
+  }
+  .featuresMain .card-img {
+    flex-basis: 100%;
+  }
+  .title-text h1 {
+    font-size: 40px;
+  }
+  .featuresMain .card-img {
+    margin: 25px auto;
+  }
+  .itemChild p {
+    padding-top: 5px;
+  }
+  .featuresMain img {
+    width: 90%;
+  }
+  /* <!-- Start Services page --> */
+
+  #Services .featuresMain_1 .perant {
+    flex-basis: 100%;
+  }
+  .hover_1 h3 {
+    font-size: 35px;
+  }
+  .hover_1 p {
+    font-size: 12px;
+  }
+  /* <!-- Start Testimonial page --> */
+
+  .TestimonialMain .card-Test {
+    flex-basis: 100%;
+    margin: 10px auto;
+  }
+  /* <!-- Start Footer page --> */
+  .footer-left,
+  .footer-right {
+    flex-basis: 100%;
+    font-size: 13px;
+  }
+  .footer-img {
+    top: 25%;
+  }
+}
+/* Media Query 590px */
+@media (max-width: 590px) {
+  /*  Start Features page */
+  #Features {
+    padding: 40px 0;
+  }
+  .title-text h1 {
+    font-size: 32px;
+  }
+  .itemChild div #fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .featuresMain .card-img {
+    margin: 20px auto;
+  }
+  /* <!-- Start Services page --> */
+  .hover_1 h3 {
+    font-size: 30px;
+  }
+    /* <!-- Start Footer page --> */
+    .footer-left,
+    .footer-right {
+      /* flex-basis: 100%; */
+      font-size: 12px;
+    }
+}
